@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400|Poppins:400');
+
+html {font-size: 100%;} /*16px*/
+
+body {
+  background-color: #c2c2c2;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 1.65;
+  color: #333;
+}
+
+p {margin-bottom: 1.15rem;}
+
+h1, h2, h3, h4, h5 {
+  margin: 2.75rem 0 1.05rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 4.209em;
+}
+
+h2 {font-size: 3.157em;}
+
+h3 {font-size: 2.369em;}
+
+h4 {font-size: 1.777em;}
+
+h5 {font-size: 1.333em;}
+
+small, .text_small {font-size: 0.75em;}
+
+.round_img_div{
+    width: 336px;
+    height: 336px;
+    padding: 24px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 12.5px rgba(0, 0, 0, 0.25);
+    background-color: white;
+}
+.round_img_div_bg{
+    width: 336px;
+    height: 336px;
+    border-radius: 50%;
+    background-position: center !important;
+    background-size:cover !important;
+}
+
+button{
+    background-color: #FD4664;
+    border:none;
+    padding: 16px 32px;
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    margin: 8px;
+    font-size: 16px;
+}
+
+button.my_btn_big{
+    font-weight: 500;
+    font-size: 28.43px;
+    box-shadow: 0px 0px 12.5px rgba(0, 0, 0, 0.25);
+}
+
+button.my_btn_big_ghost{
+    font-weight: 500;
+    font-size: 28.43px;
+    box-shadow: 0px 0px 12.5px rgba(0, 0, 0, 0.25);
+    color: #FD4664;
+    background-color: white;
+}
+
+button.my_big_tag{
+    font-weight: normal;
+    font-size: 16px;
+}
+
+button.my_sm_tag{
+    padding: 5px 8px;
+    font-weight: normal;
+    color: #FD4664;
+    background-color: white;
+}
+
+a{
+    color: #FD4664;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21.33px;
+    line-height: 44px;
+}
+
+a.inverted{
+    color: white;
+}
+
+
+.project_card_layout{
+    background-color: white;
+    box-shadow: 0px 0px 12.5px rgba(0, 0, 0, 0.25);
+    padding: 40px;
+    display: flex;
+}
+
+.project_card_image_wrapper{
+    box-shadow: 0px 0px 7.5px rgba(0, 0, 0, 0.25);
+    margin: 8px;
+    margin-right: 48px;
+    width: 256px;
+    height: 256px;
+    display: inline-block;
+}
+
+.project_card_image_wrapper .project_card_image{
+    width: 256px;
+    height: 256px;
+    background-position: center !important;
+    background-size:cover !important;
+}
+
+.project_card_title{
+    margin: 0 0 12px 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28.43px;
+}
+
+.project_card_muted{
+    margin:0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #929292;
+}
+
+.project_card_body{
+    margin: 4px 0 20px 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21.33px;
+}
+
+.project_tag_holders button{
+    margin: 0 24px 0 0;
+}
