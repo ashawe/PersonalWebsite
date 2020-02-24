@@ -260,3 +260,15 @@ a.inverted{
     font-weight: normal;
     font-size: 21.33px;
 }
+
+input, textarea{
+    padding: 8px 16px;
+    display: block;
+    margin: 16px 8px;
+    border: 2px solid rgba(146, 146, 146, 0.5);
+    border-radius: 10px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(146, 146, 146, 0.5);
+}  
