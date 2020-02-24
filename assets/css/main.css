@@ -100,7 +100,14 @@ a{
     font-style: normal;
     font-weight: bold;
     font-size: 21.33px;
-    line-height: 44px;
+    margin-top: 8px;
+    padding: 8px 16px 8px 16px;
+}
+
+a:hover{
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    color:#FD4664;
 }
 
 a.inverted{
@@ -113,12 +120,37 @@ a.inverted{
     box-shadow: 0px 0px 12.5px rgba(0, 0, 0, 0.25);
     padding: 40px;
     display: flex;
+    margin: 16px;
 }
 
 .project_card_layout_sm{
     background-color: white;
     box-shadow: 0px 0px 12.5px rgba(0, 0, 0, 0.25);
     padding: 24px;
+}
+
+.cert{
+    padding-left: 48px;
+    padding-right: 48px;
+    line-height: 1.5;
+    margin:16px;
+}
+
+.cert_title{
+    margin: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28.43px;
+}
+
+.cert_muted{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    padding-bottom:8px;
+    color: #929292;
 }
 
 .project_card_layout_sm_wrapper{
