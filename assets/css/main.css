@@ -272,3 +272,7 @@ input, textarea{
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: rgba(146, 146, 146, 0.5);
 }  
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgba(146, 146, 146, 0.5);
+}
