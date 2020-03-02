@@ -1,0 +1,46 @@
+body{
+    margin:0px;
+}
+
+nav{
+    display: flex;
+    padding: 16px 32px;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+}
+
+.nav-logo{
+    width: 56px;
+    height: 56px;
+    padding: 8px;
+}
+
+.nav-name{
+    margin: 0px;
+    align-self: initial;
+}
+
+nav ul{
+    text-decoration: none;
+    list-style: none;
+    overflow: hidden;
+}
+
+nav ul li{
+    display: inline;
+    padding: 8px 16px;
+}
+
+.nav-center{
+    text-align: center;
+}
+
+.nav-start{
+    display: flex;
+    align-items: center;
+}
+
+.nav-subscribe{
+    padding: 16px 24px;
+}
