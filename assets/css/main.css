@@ -38,6 +38,17 @@ h5 {font-size: 1.333em;}
 
 small, .text_small {font-size: 0.75em;}
 
+button > a{
+    color: white;
+    font-weight: inherit;
+    margin: 0;
+}
+
+button > a:hover{
+    color: white;
+    font-weight: inherit;
+}
+
 .round_img_div{
     width: 336px;
     height: 336px;
