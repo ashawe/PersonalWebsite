@@ -1,55 +1,76 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400|Poppins:400');
-
-.mt-16{
+.mt-16 {
     margin-top: 16px;
 }
 
-html {font-size: 100%;} /*16px*/
-
-body {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400;
-  line-height: 1.65;
-  color: #333;
-  letter-spacing: 0.06rem;
+html {
+    font-size: 100%;
 }
 
-p {margin-bottom: 1.15rem;}
 
-h1, h2, h3, h4, h5 {
-  margin: 2.75rem 0 1.05rem;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  line-height: 1.15;
+/*16px*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.65;
+    color: #333;
+    letter-spacing: 0.06rem;
+}
+
+p {
+    margin-bottom: 1.15rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 2.75rem 0 1.05rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 1.15;
 }
 
 h1 {
-  margin-top: 0;
-  font-size: 4.209em;
+    margin-top: 0;
+    font-size: 4.209em;
 }
 
-h2 {font-size: 3.157em;}
+h2 {
+    font-size: 3.157em;
+}
 
-h3 {font-size: 2.369em;}
+h3 {
+    font-size: 2.369em;
+}
 
-h4 {font-size: 1.777em;}
+h4 {
+    font-size: 1.777em;
+}
 
-h5 {font-size: 1.333em;}
+h5 {
+    font-size: 1.333em;
+}
 
-small, .text_small {font-size: 0.75em;}
+small,
+.text_small {
+    font-size: 0.75em;
+}
 
-button > a{
+button>a {
     color: white;
     font-weight: inherit;
     margin: 0;
 }
 
-button > a:hover{
+button>a:hover {
     color: white;
     font-weight: inherit;
 }
 
-.round_img_div{
+.round_img_div {
     width: 336px;
     height: 336px;
     padding: 24px;
@@ -58,17 +79,18 @@ button > a:hover{
     background-color: white;
     box-sizing: unset !important;
 }
-.round_img_div_bg{
+
+.round_img_div_bg {
     width: 336px;
     height: 336px;
     border-radius: 50%;
     background-position: center !important;
-    background-size:cover !important;
+    background-size: cover !important;
 }
 
-button{
+button {
     background-color: #FD4664;
-    border:none;
+    border: none;
     padding: 16px 32px;
     color: white;
     font-family: Roboto;
@@ -78,13 +100,13 @@ button{
     line-height: initial;
 }
 
-button.my_btn_big{
+button.my_btn_big {
     font-weight: 500;
     font-size: 28.43px;
     box-shadow: 0px 0px 12.5px rgba(0, 0, 0, 0.25);
 }
 
-button.my_btn_big_ghost{
+button.my_btn_big_ghost {
     font-weight: 500;
     font-size: 28.43px;
     box-shadow: 0px 0px 12.5px rgba(0, 0, 0, 0.25);
@@ -92,12 +114,12 @@ button.my_btn_big_ghost{
     background-color: white;
 }
 
-button.my_big_tag{
+button.my_big_tag {
     font-weight: normal;
     font-size: 16px;
 }
 
-button.my_sm_tag{
+button.my_sm_tag {
     padding: 5px 8px;
     font-weight: normal;
     color: #FD4664;
@@ -105,28 +127,22 @@ button.my_sm_tag{
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
 }
 
-a{
-    color: #FD4664;
-    text-decoration: none;
-    font-style: normal;
+a {
+    color: black;
     font-weight: bold;
-    font-size: 21.33px;
-    margin-top: 8px;
-    padding: 8px 16px 8px 16px;
+    text-decoration: underline;
 }
 
-a:hover{
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
-    text-decoration: none;
-    color:#FD4664;
+a:hover {
+    color: black;
+    text-decoration: underline;
 }
 
-a.inverted{
+a.inverted {
     color: white;
 }
 
-
-.project_card_layout{
+.project_card_layout {
     background-color: white;
     box-shadow: 0px 0px 12.5px rgba(0, 0, 0, 0.25);
     padding: 40px;
@@ -134,20 +150,20 @@ a.inverted{
     margin: 16px;
 }
 
-.project_card_layout_sm{
+.project_card_layout_sm {
     background-color: white;
     box-shadow: 0px 0px 12.5px rgba(0, 0, 0, 0.25);
     padding: 24px;
 }
 
-.cert{
+.cert {
     padding-left: 48px;
     padding-right: 48px;
     line-height: 1.5;
-    margin:16px;
+    margin: 16px;
 }
 
-.cert_title{
+.cert_title {
     margin: 0;
     font-family: Roboto;
     font-style: normal;
@@ -155,20 +171,20 @@ a.inverted{
     font-size: 28.43px;
 }
 
-.cert_muted{
+.cert_muted {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    padding-bottom:8px;
+    padding-bottom: 8px;
     color: #929292;
 }
 
-.project_card_layout_sm_wrapper{
+.project_card_layout_sm_wrapper {
     padding: 8px;
 }
 
-.project_card_image_wrapper{
+.project_card_image_wrapper {
     box-shadow: 0px 0px 7.5px rgba(0, 0, 0, 0.25);
     margin: 8px;
     margin-right: 48px;
@@ -177,7 +193,7 @@ a.inverted{
     display: inline-block;
 }
 
-.project_card_image_wrapper_sm{
+.project_card_image_wrapper_sm {
     box-shadow: 0px 0px 7.5px rgba(0, 0, 0, 0.25);
     margin: 0 auto;
     width: auto;
@@ -189,16 +205,17 @@ a.inverted{
     width: 256px;
     height: 256px;
     background-position: center !important;
-    background-size:cover !important;
+    background-size: cover !important;
 }
 
-.project_card_image_wrapper_sm .project_card_image{
-    width: auto ;
+.project_card_image_wrapper_sm .project_card_image {
+    width: auto;
     height: 256px;
     background-position: center !important;
-    background-size:cover !important;
+    background-size: cover !important;
 }
-.project_card_title{
+
+.project_card_title {
     margin: 0 0 12px 0;
     font-family: Roboto;
     font-style: normal;
@@ -206,7 +223,7 @@ a.inverted{
     font-size: 28.43px;
 }
 
-.project_card_title_sm{
+.project_card_title_sm {
     margin: 16px 0 16px 0;
     font-family: Roboto;
     font-style: normal;
@@ -214,9 +231,8 @@ a.inverted{
     font-size: 28.43px;
 }
 
-
-.project_card_muted{
-    margin:0;
+.project_card_muted {
+    margin: 0;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -224,7 +240,7 @@ a.inverted{
     color: #929292;
 }
 
-.project_card_body{
+.project_card_body {
     margin: 0 0 20px 0;
     font-family: Roboto;
     font-style: normal;
@@ -232,22 +248,22 @@ a.inverted{
     font-size: 21.33px;
 }
 
-.project_tag_holders button{
+.project_tag_holders button {
     margin: 0 24px 0 0;
 }
 
-.project_tag_holders button{
+.project_tag_holders button {
     margin: 0 12px 0 0;
 }
 
-.work_card_layout{
+.work_card_layout {
     background-color: white;
     box-shadow: 0px 0px 12.5px rgba(0, 0, 0, 0.25);
     padding: 32px;
     box-sizing: initial;
 }
 
-.work_card_title{
+.work_card_title {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -255,8 +271,8 @@ a.inverted{
     margin: 0 0 16px 0;
 }
 
-.work_card_muted{
-    margin:0;
+.work_card_muted {
+    margin: 0;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -264,7 +280,7 @@ a.inverted{
     color: #929292;
 }
 
-.work_card_body{
+.work_card_body {
     margin: 0;
     font-family: Roboto;
     font-style: normal;
@@ -272,7 +288,8 @@ a.inverted{
     font-size: 21.33px;
 }
 
-input, textarea{
+input,
+textarea {
     padding: 8px 16px;
     display: block;
     margin: 16px 8px;
@@ -280,10 +297,12 @@ input, textarea{
     border-radius: 10px;
 }
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: rgba(146, 146, 146, 0.5);
-}  
+}
 
-::-ms-input-placeholder { /* Microsoft Edge */
+::-ms-input-placeholder {
+    /* Microsoft Edge */
     color: rgba(146, 146, 146, 0.5);
 }
