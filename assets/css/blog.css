@@ -65,6 +65,10 @@ nav a:hover {
     align-self: initial;
 }
 
+.nav-name.main {
+    font-weight: bold;
+}
+
 nav ul {
     text-decoration: none;
     list-style: none;
