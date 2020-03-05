@@ -96,6 +96,8 @@ nav ul li {
 .container-fluid {
     max-width: 1200px;
     margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .blog-inner {
@@ -105,8 +107,8 @@ nav ul li {
 
 .blog-featured {
     width: 100%;
-    max-width: 60%;
-    padding: 0 20px;
+    max-width: 62.5%;
+    padding: 0 24px 0 0;
     position: relative;
 }
 
@@ -134,7 +136,7 @@ nav ul li {
 }
 
 .blog-category.blue {
-    color: #2A62E2;
+    color: #0055fb;
 }
 
 .blog-category.pink {
@@ -142,7 +144,7 @@ nav ul li {
 }
 
 .blog-category.yellow {
-    color: #F6CA4D;
+    color: #ffc837;
 }
 
 .blog-featured .blog-title {
@@ -159,8 +161,8 @@ h5.blog-title {
 }
 
 .blog-side-posts {
-    max-width: 40%;
-    padding: 0 24px;
+    max-width: 37.5%;
+    padding: 0 24px 0 24px;
     width: 100%;
 }
 
@@ -230,16 +232,66 @@ h5.blog-title {
     margin-top: 0;
 }
 
-p.read {
+.read {
     margin: 0px;
-}
-
-p>a {
-    text-decoration: underline;
-    color: black;
 }
 
 p>a:hover {
     text-decoration: underline;
     color: #FD4664;
+}
+
+.new-blog-posts {
+    padding-top: 3rem;
+}
+
+.section-header-title h3 {
+    margin-bottom: 50.52px;
+    font-weight: bold;
+}
+
+.new-blog-inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -20px;
+    margin-left: -20px;
+}
+
+.new-blog-inner-item {
+    position: relative;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 30%;
+    flex: 0 0 30%;
+    max-width: 30%;
+    display: block;
+    margin-bottom: 3rem;
+}
+
+.new-blog-inner-item a {
+    text-decoration: none;
+    display: block;
+}
+
+.new-blog-inner-item h4 {
+    margin: 0 0 20px 0;
+}
+
+.new-blog-inner .img-wrap img {
+    border-radius: 8px;
+    width: 100%;
+    max-width: 100%;
+    height: 300px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+    font-family: 'object-fit: cover; object-position: center;';
+}
+
+p.read>a {
+    text-decoration: underline;
+    color: black;
 }
