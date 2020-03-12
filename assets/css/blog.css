@@ -405,3 +405,134 @@ p.read>a {
 .read-post {
     text-decoration: underline;
 }
+
+#AboutMe {
+    margin: 100px 0 0 0;
+}
+
+#AboutMe .outer-wrapper {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    border-radius: 8px;
+}
+
+.about-me-wrapper {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: white;
+}
+
+.about-me-wrapper .jumbo-img {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 40%;
+    flex: 1 0 40%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.about-me-wrapper .info {
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 18px;
+    padding-right: 0;
+}
+
+.jumbo-img img {
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 50%;
+    background-position: center;
+    object-fit: cover;
+    object-position: center;
+}
+
+.about-me-wrapper .main-text {
+    margin-top: 0px !important;
+    margin-bottom: 8px;
+}
+
+.about-me-wrapper .sub-text {
+    margin-top: 8px !important;
+}
+
+.social-icons {
+    padding: 8px 0px;
+}
+
+.social-icons a {
+    color: white
+}
+
+.social-icons a:hover {
+    color: #FD4664;
+}
+
+.social-icons .fab {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.5rem;
+}
+
+.about-me-wrapper .form {
+    position: relative;
+    display: flex;
+    margin-top: 0.5rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-self: baseline;
+    align-self: baseline;
+    padding-right: 0;
+}
+
+.subscribe-form-wrapper {
+    max-width: 420px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.subscribe-form-wrapper input {
+    font-family: 'Roboto', sans-serif;
+    height: 50px;
+    width: 350px;
+    margin: 0;
+    padding: 0 10px;
+    border: none;
+    background-color: transparent!important;
+    border: 1px solid;
+    border-color: rgba(255, 255, 255, 0.5) !important;
+    color: #fff;
+}
+
+.subscribe-form-wrapper input::placeholder {
+    color: rgba(255, 255, 255, 1) !important;
+    font-weight: bold;
+}
+
+.subscribe-form-wrapper button {
+    height: 52px;
+    border-radius: 8px;
+    float: right;
+    /* position: absolute;
+    top: 0;
+    right: 0; */
+    margin: -52px -60px 0 0;
+}
