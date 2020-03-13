@@ -352,7 +352,8 @@ nav ul li {
 }
 
 #currently-working-on,
-#other-cool-projects {
+#other-cool-projects,
+#work-exp {
     padding: 50px 0;
 }
 
@@ -405,8 +406,50 @@ nav ul li {
     font-size: 24px;
 }
 
-.ocp-outer .aside {
+.ocp-outer .aside,
+.work-exp.aside {
     margin-top: 10px;
     float: right;
     font-size: 24px;
+}
+
+.col-sm-6 {
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+
+.col-sm-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+*,
+ ::after,
+ ::before {
+    box-sizing: border-box;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.work-wrapper .blog-category,
+.work-wrapper .work-title,
+.work-wrapper .project-commit,
+.work-wrapper .underline,
+.work-wrapper .work-card-body {
+    margin: 0;
+}
+
+.work-card-body {
+    text-align: justify;
+}
+
+.work-exp-outer {
+    padding: 20px;
 }
