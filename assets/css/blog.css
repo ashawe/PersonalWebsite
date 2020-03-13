@@ -545,3 +545,35 @@ p.read>a {
 .underline {
     text-decoration: underline;
 }
+
+footer {
+    margin-top: 72px;
+}
+
+.footer-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-wrapper .section-header-title h3 {
+    margin-bottom: 0;
+}
+
+.footer-wrapper .sub-section-header-title h5 {
+    margin-top: 24px;
+}
+
+.github-stats i {
+    padding-left: 24px;
+    padding-right: 8px;
+}
+
+.footer-nav {
+    margin-top: 54px;
+    margin-bottom: 54px;
+}
+
+.footer-nav li {
+    text-decoration: underline;
+}
