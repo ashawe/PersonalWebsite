@@ -175,6 +175,7 @@ p>a:hover {
 .section-header-title h3 {
     margin-bottom: 50.52px;
     font-weight: bold;
+    color: black;
 }
 
 .new-blog-inner {
@@ -394,6 +395,7 @@ p.read>a {
 .about-me-wrapper .main-text {
     margin-top: 0px !important;
     margin-bottom: 8px;
+    color: white;
 }
 
 .about-me-wrapper .sub-text {
