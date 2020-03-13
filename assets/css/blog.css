@@ -192,8 +192,8 @@ p>a:hover {
     padding-left: 20px;
     -webkit-box-flex: 0;
     -ms-flex: 0 0 30%;
-    flex: 0 0 30%;
-    max-width: 30%;
+    flex: 0 0 33%;
+    max-width: 33%;
     display: block;
     margin-bottom: 3rem;
 }

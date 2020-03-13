@@ -413,6 +413,11 @@ nav ul li {
     font-size: 24px;
 }
 
+.new-blog-posts .aside {
+    float: right;
+    font-size: 24px;
+}
+
 .col-sm-6 {
     flex: 0 0 75%;
     max-width: 75%;
