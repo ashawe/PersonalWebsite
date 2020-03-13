@@ -15,82 +15,9 @@ button:hover {
     cursor: pointer;
 }
 
-nav {
-    display: flex;
-    padding: 16px 32px;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
-}
-
-nav a {
-    color: inherit;
-    text-decoration: none;
-    font-size: 1em;
-    margin-top: 8px;
-    padding: 0;
-    font-weight: inherit;
-}
-
 button a,
 button a:hover {
     text-decoration: none;
-}
-
-nav a.active {
-    font-weight: bold;
-    color: #FD4664;
-}
-
-nav a.active:hover {
-    font-weight: bold;
-    color: #FD4664;
-}
-
-nav a:hover {
-    box-shadow: none;
-    text-decoration: none;
-    color: inherit;
-    cursor: pointer;
-}
-
-.nav-logo {
-    width: 56px;
-    height: 56px;
-    padding: 8px;
-}
-
-.nav-name {
-    margin: 0px;
-    align-self: initial;
-}
-
-.nav-name.main {
-    font-weight: bold;
-}
-
-nav ul {
-    text-decoration: none;
-    list-style: none;
-    overflow: hidden;
-}
-
-nav ul li {
-    display: inline;
-    padding: 8px 16px;
-}
-
-.nav-center {
-    text-align: center;
-}
-
-.nav-start {
-    display: flex;
-    align-items: center;
-}
-
-.nav-subscribe {
-    padding: 16px 24px;
 }
 
 .container-fluid {
@@ -567,13 +494,4 @@ footer {
 .github-stats i {
     padding-left: 24px;
     padding-right: 8px;
-}
-
-.footer-nav {
-    margin-top: 54px;
-    margin-bottom: 54px;
-}
-
-.footer-nav li {
-    text-decoration: underline;
 }
