@@ -335,8 +335,11 @@ nav ul li {
 }
 
 .project-title {
-    font-size: 32px;
     margin: 0 0 16px 0;
+}
+
+.cwo-info .project-title {
+    font-size: 32px;
 }
 
 .project-description {
@@ -345,4 +348,65 @@ nav ul li {
 
 .project-commit {
     color: #c2c2c2;
+    margin: 8px 0;
+}
+
+#currently-working-on,
+#other-cool-projects {
+    padding: 50px 0;
+}
+
+.ocp-inner {
+    margin-top: 24px;
+    padding-top: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.ocp-image {
+    width: 100%;
+    max-width: 30%;
+    padding: 0 24px 0 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.ocp-image .img-wrap {
+    margin-bottom: 0;
+}
+
+.ocp-image .img-wrap img {
+    width: 100%;
+    height: 275px;
+    border-radius: 10px;
+}
+
+.ocp-info {
+    width: 100%;
+    max-width: 70%;
+    padding: 0 24px;
+    position: relative;
+}
+
+.ocp-info .blog-category,
+.ocp-info .project-title,
+.ocp-info .project-description,
+.ocp-info .project-commit {
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+
+.ocp-info p {
+    font-size: 16px;
+}
+
+.ocp-info .project-title {
+    font-size: 24px;
+}
+
+.ocp-outer .aside {
+    margin-top: 10px;
+    float: right;
+    font-size: 24px;
 }
