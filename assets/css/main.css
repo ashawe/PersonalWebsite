@@ -364,7 +364,8 @@ nav ul li {
 }
 
 #new-blog-posts,
-#cert {
+#cert,
+#connect {
     padding: 50px 0 50px 0;
 }
 
