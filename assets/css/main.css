@@ -216,7 +216,7 @@ nav ul li {
 }
 
 .nav-subscribe {
-    padding: 16px 24px;
+    padding: 12px 18px;
 }
 
 .nav-aside a {
@@ -548,7 +548,7 @@ nav ul li {
 
 .header-nav {
     position: fixed;
-    box-shadow: 0px 0px 12.5px rgba(0, 0, 0, 0.125);
+    box-shadow: none;
     width: 100%;
     z-index: 2;
 }
@@ -575,4 +575,9 @@ header {
 #go_up {
     display: none;
     transition: unset;
+}
+
+.about-me-inner {
+    display: flex;
+    flex-direction: column;
 }

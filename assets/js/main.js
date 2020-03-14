@@ -20,6 +20,14 @@ $(window).scroll(function() {
         $('#go_up').fadeOut("fast");
     }
 
+    if ($(window).scrollTop() >= 50) {
+        $(".header-nav").css("box-shadow", "0 0 8px rgba(0, 0, 0, 0.1)");
+        $(".header-nav").css("padding", "8px 32px");
+    } else {
+        $(".header-nav").css("box-shadow", "none");
+        $(".header-nav").css("padding", "16px 32px");
+    }
+
     $('section').each(function() {
         // console.log('here1');
         var section_id = $(this).attr('id');
