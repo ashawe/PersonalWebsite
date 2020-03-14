@@ -356,20 +356,21 @@ p.read>a {
     color: white;
 }
 
-.about-me-wrapper .jumbo-img {
+.about-me-wrapper .about-me-inner {
     -webkit-box-flex: 1;
-    -ms-flex: 1 0 40%;
-    flex: 1 0 40%;
+    -ms-flex: 1 0 60%;
+    flex: 1 0 60%;
     display: flex;
     justify-content: center;
     margin: auto;
+    padding: 20px 80px;
 }
 
 .about-me-wrapper .info {
     display: flex;
     -webkit-box-flex: 1;
-    -ms-flex: 1 0 60%;
-    flex: 1 0 60%;
+    -ms-flex: 1 0 40%;
+    flex: 1 0 40%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -401,6 +402,7 @@ p.read>a {
 .about-me-wrapper .sub-text {
     margin-top: 8px !important;
     font-size: 1rem;
+    color: #929292;
     line-height: 1.45rem;
 }
 
