@@ -581,3 +581,38 @@ header {
     display: flex;
     flex-direction: column;
 }
+
+.jumbo-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.new-blog-inner article:hover a,
+.blog-featured:hover .blog-title a {
+    text-decoration: underline!important;
+}
+
+.pagination {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination .pg-num {
+    margin: 0 4px;
+    width: 50px;
+    height: 50px;
+    background-color: #c2c2c2;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.pg-num.active {
+    background-color: #FD4664;
+    color: white;
+}

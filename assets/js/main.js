@@ -14,7 +14,7 @@ var prevSelected = "lorem";
 
 $(window).scroll(function() {
 
-    if ($(window).scrollTop() >= 1000) {
+    if ($(window).scrollTop() >= 500) {
         $('#go_up').fadeIn("fast");
     } else {
         $('#go_up').fadeOut("fast");
