@@ -5,6 +5,7 @@
 
 html {
     font-size: 100%;
+    scroll-behavior: smooth;
 }
 
 
@@ -162,12 +163,12 @@ nav a {
 }
 
 nav a.active {
-    font-weight: bold;
+    /* font-weight: bold; */
     color: #FD4664;
 }
 
 nav a.active:hover {
-    font-weight: bold;
+    /* font-weight: bold; */
     color: #FD4664;
 }
 
@@ -353,8 +354,8 @@ nav ul li {
     margin: 8px 0;
 }
 
-#currently-working-on,
-#other-cool-projects,
+.currently-working-on,
+.other-cool-projects,
 #work-exp {
     padding: 50px 0;
 }
@@ -543,4 +544,35 @@ nav ul li {
     margin: 8px;
     padding: 12px;
     width: 100%;
+}
+
+.header-nav {
+    position: fixed;
+    box-shadow: 0px 0px 12.5px rgba(0, 0, 0, 0.125);
+    width: 100%;
+    z-index: 2;
+}
+
+header {
+    padding-top: 100px;
+}
+
+.up-arrow {
+    background-color: #FD4664;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 35px;
+    right: 35px;
+    border-radius: 8px;
+    color: white;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#go_up {
+    display: none;
+    transition: unset;
 }
