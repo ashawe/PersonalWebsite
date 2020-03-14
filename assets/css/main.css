@@ -357,6 +357,15 @@ nav ul li {
     padding: 50px 0;
 }
 
+#work-exp {
+    margin: 50px 0 100px 0;
+}
+
+#new-blog-posts,
+#cert {
+    padding: 50px 0 50px 0;
+}
+
 .ocp-inner {
     margin-top: 24px;
     padding-top: 24px;
@@ -413,7 +422,8 @@ nav ul li {
     font-size: 24px;
 }
 
-.new-blog-posts .aside {
+.new-blog-posts .aside,
+.cert-outer-wrapper .aside {
     float: right;
     font-size: 24px;
 }
@@ -457,4 +467,43 @@ nav ul li {
 
 .work-exp-outer {
     padding: 20px;
+}
+
+.cert-inner-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.cert-inner-wrapper .img-wrap {
+    width: 100%;
+    max-width: 12.5%;
+    padding: 0 24px 0 0;
+    margin-bottom: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.cert-inner-wrapper .img-wrap img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+}
+
+.cert-inner-wrapper .cert-info {
+    width: 100%;
+    max-width: 87.5%;
+    padding: 0 24px;
+    position: relative;
+}
+
+.cert-info p {
+    margin: 0;
+}
+
+.cert-info h5,
+.cert-info a {
+    margin: 0;
+    font-weight: bold;
 }
