@@ -141,6 +141,7 @@ textarea {
 
 .footer-nav li {
     text-decoration: underline;
+    font-weight: bold;
 }
 
 nav {
@@ -232,7 +233,8 @@ nav ul li {
     align-items: flex-end;
 }
 
-.main-intro-inner .social-icons a {
+.main-intro-inner .social-icons a,
+.connect-inner-wrapper .social-icons a {
     color: black;
 }
 
@@ -469,7 +471,8 @@ nav ul li {
     padding: 20px;
 }
 
-.cert-inner-wrapper {
+.cert-inner-wrapper,
+.connect-inner-wrapper {
     display: flex;
     align-items: center;
     margin-bottom: 32px;
@@ -506,4 +509,37 @@ nav ul li {
 .cert-info a {
     margin: 0;
     font-weight: bold;
+}
+
+.connect-description {
+    width: 100%;
+    max-width: 50%;
+    position: relative;
+}
+
+.connect-description p {
+    text-align: justify;
+}
+
+.connect-inner-wrapper {
+    justify-content: space-between;
+}
+
+.connect-inner-wrapper .form {
+    width: 100%;
+    max-width: 40%;
+    padding: 0 24px;
+    position: relative;
+}
+
+.connect-inner-wrapper .form input {
+    padding: 12px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.connect-inner-wrapper .form button {
+    margin: 8px;
+    padding: 12px;
+    width: 100%;
 }
