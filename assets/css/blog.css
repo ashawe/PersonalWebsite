@@ -46,7 +46,7 @@ button a:hover {
 
 .img-wrap {
     position: relative;
-    margin-bottom: 32px;
+    margin-bottom: 20px;
 }
 
 .img-wrap img {
@@ -59,7 +59,7 @@ button a:hover {
 }
 
 .blog-category {
-    margin: 0 0 16px 0;
+    margin: 0 0 8px 0;
 }
 
 .blog-category.blue {
@@ -161,6 +161,7 @@ h5.blog-title {
 
 .read {
     margin: 0px;
+    margin-right: 30px;
 }
 
 p>a:hover {
@@ -211,7 +212,7 @@ p>a:hover {
     border-radius: 8px;
     width: 100%;
     max-width: 100%;
-    height: 300px;
+    height: 275px;
     -o-object-fit: cover;
     object-fit: cover;
     -o-object-position: center;
@@ -498,4 +499,19 @@ footer {
 .github-stats i {
     padding-left: 24px;
     padding-right: 8px;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .section-header-title h3 {
+        margin: 22px 0 22px 64px;
+    }
+    .new-blog-inner .img-wrap img {
+        height: 200px;
+    }
+    .new-blog-inner-item h4 {
+        font-size: 24px;
+    }
+    .footer-wrapper .section-header-title h3 {
+        margin-left: 0;
+    }
 }

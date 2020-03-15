@@ -128,16 +128,26 @@ textarea {
 ::placeholder {
     /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: rgba(146, 146, 146, 0.5);
+    font-family: 'Poppins', sans-serif;
 }
 
 ::-ms-input-placeholder {
     /* Microsoft Edge */
     color: rgba(146, 146, 146, 0.5);
+    font-family: 'Poppins', sans-serif;
 }
 
 .footer-nav {
     margin-top: 54px;
     margin-bottom: 54px;
+}
+
+nav ul {
+    padding: 0;
+}
+
+.footer-nav ul {
+    padding: 0 24px;
 }
 
 .footer-nav li {
@@ -245,20 +255,21 @@ nav ul li {
 
 .main-intro-featured {
     width: 100%;
-    max-width: 70%;
-    padding: 0 24px 0 24px;
+    max-width: 75%;
+    padding: 0 24px 0 56px;
     position: relative;
 }
 
 .main-intro-side {
-    max-width: 30%;
+    max-width: 25%;
     padding: 0 24px 0 24px;
     width: 100%;
 }
 
 .main-intro-title {
     margin-top: 0px;
-    font-size: 48px;
+    margin-bottom: 10px;
+    font-size: 24px;
 }
 
 .jumbo-name-text {
@@ -267,20 +278,27 @@ nav ul li {
 }
 
 .main-intro-sub-title {
-    font-size: 24px;
+    font-size: 32px;
     margin-top: 0px;
 }
 
 .main-intro-description {
     line-height: 28px;
-    text-align: justify;
+    /* text-align: justify; */
     font-size: 18px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    width: 65%;
+}
+
+.main-intro-position {
+    margin: 30px 0;
 }
 
 .main-intro-position h4,
 .main-intro-position h5 {
-    color: #525252;
     margin: 10px 0;
+    color: #525252;
     text-align: center;
 }
 
@@ -294,10 +312,10 @@ nav ul li {
     object-position: cover;
     object-fit: center;
     overflow: hidden;
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     background-color: white;
-    padding: 20px;
+    padding: 15px;
     border-radius: 50%;
     background-position: center;
     object-fit: cover;
@@ -325,8 +343,8 @@ nav ul li {
 }
 
 .cwo-image .img-wrap img {
-    width: 430px;
-    height: 430px;
+    width: 400px;
+    height: 400px;
     border-radius: 10px;
 }
 
@@ -338,20 +356,21 @@ nav ul li {
 }
 
 .project-title {
-    margin: 0 0 16px 0;
+    margin: 0 0 8px 0;
 }
 
 .cwo-info .project-title {
-    font-size: 32px;
+    font-size: 28px;
 }
 
 .project-description {
     text-align: justify;
+    margin-top: 8px;
 }
 
 .project-commit {
     color: #c2c2c2;
-    margin: 8px 0;
+    margin: 0;
 }
 
 .currently-working-on,
@@ -380,7 +399,7 @@ nav ul li {
 .ocp-image {
     width: 100%;
     max-width: 30%;
-    padding: 0 24px 0 0;
+    padding: 0 12px 0 0;
     position: relative;
     display: flex;
     justify-content: center;
@@ -392,7 +411,7 @@ nav ul li {
 
 .ocp-image .img-wrap img {
     width: 100%;
-    height: 275px;
+    height: 250px;
     border-radius: 10px;
 }
 
@@ -405,7 +424,6 @@ nav ul li {
 
 .ocp-info .blog-category,
 .ocp-info .project-title,
-.ocp-info .project-description,
 .ocp-info .project-commit {
     margin-bottom: 8px;
     margin-top: 0;
@@ -534,7 +552,8 @@ nav ul li {
     position: relative;
 }
 
-.connect-inner-wrapper .form input {
+.connect-inner-wrapper .form input,
+.connect-inner-wrapper .form textarea {
     padding: 12px;
     font-size: 1rem;
     width: 100%;
@@ -589,8 +608,8 @@ header {
     padding: 100px 0;
 }
 
-.new-blog-inner article:hover a,
-.blog-featured:hover .blog-title a {
+.new-blog-inner article a:hover,
+.blog-featured .blog-title:hover a {
     text-decoration: underline!important;
 }
 
@@ -615,4 +634,108 @@ header {
 .pg-num.active {
     background-color: #FD4664;
     color: white;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .nav-start h4 {
+        font-size: 24px;
+    }
+    nav ul li {
+        padding: 8px 12px;
+    }
+    .nav-aside a {
+        padding: 0 8px;
+    }
+    .main-intro-inner,
+    .cwo-inner {
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-intro-inner .main-intro-side {
+        margin-bottom: 50px;
+    }
+    .main-intro-inner .main-intro-side,
+    .main-intro-inner .main-intro-featured,
+    .cwo-inner .cwo-image,
+    .cwo-inner .cwo-info,
+    .ocp-inner,
+    #timeline_row,
+    .connect-info,
+    .connect-inner-wrapper,
+    .footer-wrapper {
+        max-width: 90%;
+    }
+    .main-intro-inner .main-intro-title {
+        font-size: 32px;
+    }
+    .main-intro-inner .jumbo-name-text {
+        font-size: 64px;
+    }
+    .main-intro-inner .main-intro-description {
+        padding: 18px 0;
+    }
+    .cwo-inner .cwo-image img,
+    .cwo-inner .cwo-image .img-wrap {
+        width: 100%;
+        height: 300px;
+    }
+    .cwo-inner .project-description {
+        padding-right: 24px;
+    }
+    .cwo-inner .cwo-image .img-wrap {
+        padding: 0 24px;
+        margin-bottom: 12px;
+    }
+    .ocp-outer,
+    .work-exp-outer,
+    .new-blog-outer,
+    .cert-outer-wrapper,
+    .connect-outer-wrapper,
+    .footer-outer-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ocp-inner .project-description {
+        margin-bottom: 4px;
+    }
+    .ocp-outer .aside,
+    .work-exp.aside,
+    .new-blog-posts .aside,
+    .cert-outer-wrapper .aside {
+        margin-left: 64px;
+        margin-top: 24px;
+        align-self: start;
+    }
+    .work-exp.aside,
+    .new-blog-posts .aside {
+        float: left;
+    }
+    .new-blog-inner,
+    .cert-outer-wrapper {
+        margin-top: 48px;
+        max-width: 90%;
+    }
+    .cert-inner-wrapper {
+        margin-bottom: 48px;
+    }
+    .connect-description {
+        max-width: 60%;
+    }
+    .form {
+        max-width: 40%;
+    }
+    .footer-nav {
+        margin: 36px 0;
+    }
+    .footer-nav ul {
+        padding: 0 56px;
+    }
+    .up-arrow {
+        width: 40px;
+        height: 40px;
+        bottom: 25px;
+        right: 25px;
+        border-radius: 8px;
+    }
 }
