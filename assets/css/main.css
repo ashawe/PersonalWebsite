@@ -392,6 +392,7 @@ nav ul li {
 .ocp-inner {
     margin-top: 24px;
     padding-top: 24px;
+    padding: 0 24px;
     display: flex;
     align-items: center;
 }
@@ -461,8 +462,8 @@ nav ul li {
 }
 
 *,
- ::after,
- ::before {
+::after,
+::before {
     box-sizing: border-box;
 }
 
@@ -501,11 +502,11 @@ nav ul li {
 .cert-inner-wrapper .img-wrap {
     width: 100%;
     max-width: 12.5%;
-    padding: 0 24px 0 0;
     margin-bottom: 0;
     position: relative;
+    margin: 0 24px 0 0;
     display: flex;
-    justify-content: center;
+    justify-content: start;
 }
 
 .cert-inner-wrapper .img-wrap img {
@@ -517,7 +518,7 @@ nav ul li {
 .cert-inner-wrapper .cert-info {
     width: 100%;
     max-width: 87.5%;
-    padding: 0 24px;
+    margin: 0 24px;
     position: relative;
 }
 
@@ -636,24 +637,7 @@ header {
     color: white;
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-    .nav-start h4 {
-        font-size: 24px;
-    }
-    nav ul li {
-        padding: 8px 12px;
-    }
-    .nav-aside a {
-        padding: 0 8px;
-    }
-    .main-intro-inner,
-    .cwo-inner {
-        flex-direction: column;
-        align-items: center;
-    }
-    .main-intro-inner .main-intro-side {
-        margin-bottom: 50px;
-    }
+@media only screen and (max-device-width: 1024px) {
     .main-intro-inner .main-intro-side,
     .main-intro-inner .main-intro-featured,
     .cwo-inner .cwo-image,
@@ -665,27 +649,12 @@ header {
     .footer-wrapper {
         max-width: 90%;
     }
-    .main-intro-inner .main-intro-title {
-        font-size: 32px;
-    }
-    .main-intro-inner .jumbo-name-text {
-        font-size: 64px;
-    }
-    .main-intro-inner .main-intro-description {
-        padding: 18px 0;
-    }
     .cwo-inner .cwo-image img,
     .cwo-inner .cwo-image .img-wrap {
         width: 100%;
-        height: 300px;
     }
-    .cwo-inner .project-description {
-        padding-right: 24px;
-    }
-    .cwo-inner .cwo-image .img-wrap {
-        padding: 0 24px;
-        margin-bottom: 12px;
-    }
+    .main-intro-inner,
+    .cwo-inner,
     .ocp-outer,
     .work-exp-outer,
     .new-blog-outer,
@@ -696,6 +665,46 @@ header {
         flex-direction: column;
         align-items: center;
     }
+    .work-exp.aside,
+    .new-blog-posts .aside {
+        float: left;
+    }
+    /* nav */
+    .nav-start h4 {
+        font-size: 24px;
+    }
+    nav ul li {
+        padding: 8px 12px;
+    }
+    .nav-aside a {
+        padding: 0 8px;
+    }
+    /* main-intro */
+    .main-intro-inner .main-intro-side {
+        margin-bottom: 50px;
+    }
+    .main-intro-inner .main-intro-title {
+        font-size: 32px;
+    }
+    .main-intro-inner .jumbo-name-text {
+        font-size: 64px;
+    }
+    .main-intro-inner .main-intro-description {
+        padding: 18px 0;
+    }
+    /* currently working on */
+    .cwo-inner .cwo-image img,
+    .cwo-inner .cwo-image .img-wrap {
+        height: 300px;
+    }
+    .cwo-inner .project-description {
+        padding-right: 24px;
+    }
+    .cwo-inner .cwo-image .img-wrap {
+        padding: 0 24px;
+        margin-bottom: 12px;
+    }
+    /* other cool projects */
     .ocp-inner .project-description {
         margin-bottom: 4px;
     }
@@ -707,35 +716,305 @@ header {
         margin-top: 24px;
         align-self: start;
     }
-    .work-exp.aside,
-    .new-blog-posts .aside {
-        float: left;
-    }
-    .new-blog-inner,
-    .cert-outer-wrapper {
+    /* new blog */
+    .new-blog-inner {
         margin-top: 48px;
         max-width: 90%;
     }
+    /* certifications */
     .cert-inner-wrapper {
         margin-bottom: 48px;
     }
+    /* connect */
     .connect-description {
         max-width: 60%;
     }
     .form {
         max-width: 40%;
     }
+    /* footer */
     .footer-nav {
         margin: 36px 0;
     }
     .footer-nav ul {
         padding: 0 56px;
     }
+    /* others */
     .up-arrow {
         width: 40px;
         height: 40px;
         bottom: 25px;
         right: 25px;
         border-radius: 8px;
+    }
+}
+
+@media only screen and (max-device-width: 940px) {
+    /* nav */
+    .header-nav {
+        display: none;
+    }
+    /* main-intro */
+    header {
+        padding-top: 50px;
+    }
+    .main-intro-featured {
+        padding: 0 24px 0 48px;
+        text-align: center;
+    }
+    .main-intro-position {
+        margin: 15px 0;
+    }
+    .main-intro-inner .main-intro-side {
+        margin-bottom: 50px;
+    }
+    .main-intro-inner .main-intro-title {
+        font-size: 24px;
+    }
+    .main-intro-inner .jumbo-name-text {
+        font-size: 51px;
+    }
+    .main-intro-sub-title {
+        margin-top: 12px;
+        font-size: 24px;
+    }
+    .main-intro-inner .main-intro-description {
+        font-size: 18px;
+        padding: 18px 0;
+        width: 100%;
+    }
+    /* currently working on */
+    .cwo-info .project-title {
+        font-size: 24px;
+    }
+    .cwo-inner .cwo-image img,
+    .cwo-inner .cwo-image .img-wrap {
+        height: 250px;
+    }
+    .cwo-inner .cwo-image .img-wrap {
+        padding: 0 24px;
+        margin-bottom: 12px;
+    }
+    /* other cool projects */
+    .ocp-inner {
+        padding-top: 0;
+    }
+    .ocp-info p.project-commit {
+        margin: 0;
+    }
+    .ocp-info {
+        padding: 0 12px;
+    }
+    .ocp-info .project-title {
+        font-size: 20px;
+    }
+    .ocp-info .blog-category,
+    .ocp-info .project-title,
+    .ocp-info .project-commit,
+    .ocp-info .project-description {
+        margin-bottom: 2px;
+        margin-top: 0;
+    }
+    .ocp-outer .aside,
+    .work-exp.aside,
+    .new-blog-posts .aside,
+    .cert-outer-wrapper .aside {
+        margin-left: 48px;
+        margin-top: 12px;
+        align-self: start;
+    }
+    /* work experience */
+    #work-exp {
+        margin: 50px 0 50px 0;
+        padding-top: 0px;
+    }
+    .timeline button {
+        padding: 12px 28px;
+    }
+    #timeline .timeline-badge,
+    #timeline::before {
+        left: 20%!important;
+    }
+    .timeline-item {
+        padding-right: 0px!important;
+        padding-left: 8px!important;
+    }
+    .timeline-item.year {
+        padding-left: 0px!important;
+    }
+    .work-title {
+        font-size: 20px;
+    }
+    /* new blog */
+    .new-blog-posts .aside,
+    .cert-outer-wrapper .aside {
+        margin-top: 0;
+    }
+    /* certifications */
+    .cert-info h5 {
+        font-size: 20px;
+    }
+    .cert-inner-wrapper .cert-info {
+        padding-right: 0px;
+    }
+    .cert-outer-wrapper {
+        justify-content: center;
+    }
+    .cert-inner-wrapper {
+        margin-bottom: 40px;
+        max-width: 90%;
+    }
+    /* connect */
+    .connect-info h5 {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .connect-description p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .connect-inner-wrapper .form {
+        padding: 0 12px;
+        align-self: start;
+    }
+    /* footer */
+    .footer-nav {
+        margin: 28px 0;
+    }
+    /* others */
+    .ocp-info p.project-commit,
+    .work-wrapper p.project-commit {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-device-width: 768px) {
+    /* main intro */
+    .main-intro-inner {
+        padding-top: 10px;
+        padding-bottom: 25px;
+    }
+    .main-intro-inner .main-intro-side {
+        margin-bottom: 10px;
+    }
+    .main-intro-inner .main-intro-title {
+        font-size: 18px;
+    }
+    .main-intro-inner .jumbo-name-text {
+        font-size: 32px;
+    }
+    .main-intro-profile-image img {
+        height: 150px;
+        width: 150px;
+        padding: 10px;
+    }
+    .main-intro-sub-title {
+        font-size: 20px;
+    }
+    .currently-working-on,
+    .other-cool-projects,
+    #work-exp {
+        padding: 20px 0;
+    }
+    .main-intro-featured,
+    .main-intro-inner .main-intro-description,
+    .cwo-image,
+    .cwo-inner .cwo-image .img-wrap,
+    .cwo-info,
+    .cwo-inner .project-description,
+    .ocp-inner,
+    .ocp-image,
+    .ocp-info,
+    .work-exp-outer,
+    .connect-inner-wrapper .form {
+        padding: 0;
+    }
+    .cwo-inner .cwo-image img,
+    .cwo-inner .cwo-image .img-wrap,
+    .ocp-image .img-wrap img {
+        height: 200px;
+    }
+    .ocp-inner .ocp-image .img-wrap {
+        margin-bottom: 12px;
+    }
+    .cwo-info .project-title,
+    .footer-wrapper .section-header-title h3 {
+        font-size: 20px;
+    }
+    p,
+    .ocp-info p {
+        font-size: 14px;
+    }
+    .ocp-inner,
+    .new-blog-inner,
+    .connect-inner-wrapper {
+        flex-direction: column;
+    }
+    .ocp-inner .ocp-image,
+    .ocp-inner .ocp-info,
+    #timeline,
+    .col-sm-3,
+    .col-sm-6,
+    .connect-description,
+    .connect-inner-wrapper .form {
+        max-width: 100%;
+    }
+    .ocp-outer .aside,
+    .work-exp.aside,
+    .new-blog-posts .aside,
+    .cert-outer-wrapper .aside {
+        margin-left: 16px;
+        font-size: 20px;
+    }
+    .timeline-badge,
+    #timeline::before {
+        display: none;
+    }
+    .timeline-item.year {
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    #timeline .row.timeline-movement {
+        flex-direction: column;
+        padding: 10px;
+        margin: 0 !important;
+    }
+    #timeline {
+        margin: 0 !important;
+        height: auto !important;
+    }
+    #work-exp .aside {
+        margin-top: 20px !important;
+    }
+    #work-exp,
+    .col-sm-3.timeline-item.year button {
+        margin: 0 !important;
+    }
+    .cert-inner-wrapper .img-wrap {
+        display: none;
+    }
+    .cert-inner-wrapper .cert-info {
+        margin: 0 10px;
+    }
+    #connect {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .connect-description p {
+        text-align: left;
+    }
+    .connect-inner-wrapper .form input,
+    .connect-inner-wrapper .form textarea,
+    .connect-inner-wrapper .form button {
+        margin: 16px 0;
+    }
+    .footer-wrapper .footer-nav {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .footer-wrapper .footer-nav ul {
+        padding: 0;
+        margin: 0;
     }
 }
