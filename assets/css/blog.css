@@ -582,6 +582,7 @@ footer {
     }
     .new-blog-inner {
         margin-top: 32px;
+        padding: 0 24px;
         max-width: 90%;
     }
     .new-blog-inner-item {
@@ -641,7 +642,15 @@ footer {
         margin: 18px 0 18px 0px;
         font-size: 24px;
     }
+    .new-blog-inner {
+        margin-top: 32px;
+        padding: 0 0 0 24px;
+        max-width: 100%;
+        align-self: stretch;
+        width: 1280px;
+    }
     .new-blog-inner-item {
+        padding: 0 0 0 10px;
         max-width: 100%;
     }
     .new-blog-inner {

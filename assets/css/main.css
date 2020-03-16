@@ -837,6 +837,9 @@ header {
         margin: 50px 0 50px 0;
         padding-top: 0px;
     }
+    .work-exp-outer {
+        padding: 0 48px;
+    }
     .timeline button {
         padding: 12px 28px;
     }
@@ -885,6 +888,10 @@ header {
     .connect-inner-wrapper .form {
         padding: 0 12px;
         align-self: start;
+    }
+    .connect-outer-wrapper .connect-info,
+    .connect-outer-wrapper .connect-inner-wrapper {
+        padding: 0 24px;
     }
     /* footer */
     .footer-nav {
@@ -980,11 +987,14 @@ header {
         display: none;
     }
     .timeline-item.year {
-        margin: 10px 0 20px 10px;
+        margin: 20px 0;
+    }
+    .timeline-item {
+        padding-left: 0 !important;
     }
     #timeline .row.timeline-movement {
         flex-direction: column;
-        padding: 10px;
+        padding: 0;
         margin: 0 !important;
     }
     #timeline {
@@ -998,6 +1008,14 @@ header {
     .col-sm-3.timeline-item.year button {
         margin: 0 !important;
     }
+    .cert-inner-wrapper {
+        padding: 0 0 0 10px;
+        max-width: 100%;
+        align-self: stretch;
+    }
+    .cert-outer-wrapper {
+        padding: 0;
+    }
     .cert-inner-wrapper .img-wrap {
         display: none;
     }
@@ -1010,6 +1028,10 @@ header {
     }
     .connect-description p {
         text-align: left;
+    }
+    .connect-outer-wrapper .connect-info,
+    .connect-outer-wrapper .connect-inner-wrapper {
+        padding: 0;
     }
     .connect-inner-wrapper .form input,
     .connect-inner-wrapper .form textarea,
