@@ -638,6 +638,9 @@ header {
 }
 
 @media only screen and (max-device-width: 1024px) {
+    .footer-wrapper .section-header-title h3 {
+        text-align: center;
+    }
     .main-intro-inner .main-intro-side,
     .main-intro-inner .main-intro-featured,
     .cwo-inner .cwo-image,

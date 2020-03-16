@@ -514,6 +514,62 @@ footer {
     .footer-wrapper .section-header-title h3 {
         margin-left: 0;
     }
+    .blog-inner .blog-featured {
+        padding: 0 12px 0 0;
+    }
+    .blog-inner .blog-side-posts {
+        padding: 0 0 0 12px;
+    }
+    .blog-inner .blog-side-post-item {
+        margin-bottom: 24px;
+    }
+    .blog-side-post-item .side-text {
+        margin-left: 12px;
+    }
+    .blog-side-posts h5 {
+        margin-bottom: 0;
+    }
+    .blog-side-posts .img-wrap {
+        margin-bottom: 0;
+    }
+    .blog-side-post-item {
+        align-items: center;
+    }
+    .blog-side-posts p.blog-category {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    .blog-side-posts .read a {
+        font-weight: 400;
+    }
+    .blog-featured .img-wrap img {
+        height: 224px;
+    }
+    .youtube-item .img-wrap {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .youtube-item:not(:last-child) {
+        margin-bottom: 20px;
+    }
+    #AboutMe .outer-wrapper {
+        max-width: 97%;
+    }
+    .about-me-wrapper .about-me-inner {
+        padding: 10px 20px;
+    }
+    .about-me-wrapper .form {
+        max-width: 90%;
+    }
+    .subscribe-form-wrapper input {
+        width: 200px;
+    }
+    .subscribe-form-wrapper p {
+        text-align: center;
+    }
+    .about-me-wrapper .main-text {
+        font-size: 38px;
+    }
 }
 
 @media only screen and (max-device-width: 940px) {
