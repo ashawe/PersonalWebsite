@@ -638,7 +638,13 @@ header {
 }
 
 @media only screen and (max-device-width: 1024px) {
-    .footer-wrapper .section-header-title h3 {
+    .footer-nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+    .footer-wrapper .section-header-title h3,
+    .footer-wrapper .sub-section-header-title h5 {
         text-align: center;
     }
     .main-intro-inner .main-intro-side,
@@ -974,9 +980,7 @@ header {
         display: none;
     }
     .timeline-item.year {
-        margin: auto;
-        margin-top: 10px;
-        margin-bottom: 20px;
+        margin: 10px 0 20px 10px;
     }
     #timeline .row.timeline-movement {
         flex-direction: column;
