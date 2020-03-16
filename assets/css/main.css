@@ -951,6 +951,7 @@ header {
         height: 200px;
     }
     .ocp-inner .ocp-image .img-wrap {
+        width: 1200px;
         margin-bottom: 12px;
     }
     .cwo-info .project-title,
@@ -960,6 +961,9 @@ header {
     p,
     .ocp-info p {
         font-size: 14px;
+    }
+    .container-fluid {
+        padding: 0 10px !important;
     }
     .ocp-inner,
     .new-blog-inner,
@@ -1009,9 +1013,9 @@ header {
         margin: 0 !important;
     }
     .cert-inner-wrapper {
-        padding: 0 0 0 10px;
-        max-width: 100%;
-        align-self: stretch;
+        padding: 0;
+        max-width: 90%;
+        align-self: center;
     }
     .cert-outer-wrapper {
         padding: 0;
