@@ -1024,7 +1024,7 @@ header {
         display: none;
     }
     .cert-inner-wrapper .cert-info {
-        margin: 0 10px;
+        margin: 0;
     }
     #connect {
         padding-top: 0;

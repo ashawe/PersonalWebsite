@@ -678,4 +678,55 @@ footer {
     .everything .youtube-video-featured .container-fluid {
         padding: 0!important;
     }
+    .everything .youtube-video-wrap,
+    .everything .blog-inner,
+    .everything .about-me-wrapper {
+        flex-direction: column;
+    }
+    .everything .blog-featured,
+    .everything .blog-side-post-item,
+    .everything .blog-side-posts {
+        padding: 0;
+        max-width: 100%;
+    }
+    .everything .blog-side-posts,
+    .everything .youtube-video-featured {
+        margin-top: 50px;
+    }
+    .everything .youtube-item .img-wrap {
+        height: auto;
+        width: auto;
+        margin-right: 0px;
+    }
+    .everything .youtube-item .text h5 {
+        font-size: 14px;
+    }
+    .youtube-item .img-wrap img {
+        width: 100px;
+        height: 100px;
+    }
+    .youtube-item .text {
+        margin-left: 12px;
+    }
+    .about-me-wrapper .main-text {
+        font-size: 32px;
+    }
+    .subscribe-form-wrapper button {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+    .everything .about-me-wrapper {
+        padding: 40px 0;
+    }
+    .subscribe-form-wrapper p {
+        margin-top: 24px;
+    }
+    .about-me-wrapper .about-me-inner {
+        text-align: center;
+        padding: 0 20px;
+    }
+    #AboutMe .outer-wrapper {
+        max-width: 100%;
+        border-radius: 0;
+    }
 }
