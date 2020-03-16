@@ -535,7 +535,7 @@ footer {
     .blog-side-post-item {
         align-items: center;
     }
-    .blog-side-posts p.blog-category {
+    p.blog-category {
         font-size: 14px;
         margin-bottom: 0;
     }
@@ -601,6 +601,28 @@ footer {
     .footer-wrapper .sub-section-header-title h5 {
         margin-top: 18px;
         font-size: 18px;
+    }
+    .blog-side-post-item .side-text .blog-title a,
+    .blog-side-post-item .side-text .read {
+        font-size: 14px;
+    }
+    .blog-featured .blog-title a {
+        font-size: 24px;
+    }
+    .blog-featured .blog-description {
+        margin: 10px 0;
+    }
+    .youtube-item .text h5 {
+        font-size: 20px;
+    }
+    .featured-resource h5 {
+        font-size: 20px;
+    }
+    .about-me-wrapper .info {
+        padding-left: 0;
+    }
+    .subscribe-form-wrapper button {
+        padding: 8px 16px;
     }
 }
 
