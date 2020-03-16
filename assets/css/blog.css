@@ -182,6 +182,7 @@ p>a:hover {
 .new-blog-inner {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     margin-right: -20px;
     margin-left: -20px;
 }
@@ -501,6 +502,12 @@ footer {
     padding-right: 8px;
 }
 
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 @media only screen and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     .section-header-title h3 {
         margin: 22px 0 22px 64px;
@@ -570,6 +577,12 @@ footer {
     .about-me-wrapper .main-text {
         font-size: 38px;
     }
+    .jumbo-text {
+        padding: 50px 0;
+    }
+    .grid .new-blog-inner-item {
+        margin-bottom: 12px;
+    }
 }
 
 @media only screen and (max-device-width: 940px) {
@@ -624,6 +637,12 @@ footer {
     }
     .subscribe-form-wrapper button {
         padding: 8px 16px;
+    }
+    .grid .new-blog-inner {
+        padding: 0;
+    }
+    .jumbo-text {
+        padding: 25px 0;
     }
 }
 
@@ -728,5 +747,18 @@ footer {
     #AboutMe .outer-wrapper {
         max-width: 100%;
         border-radius: 0;
+    }
+    .grid .new-blog-inner-item {
+        margin-bottom: 24px;
+    }
+    .jumbo-text h1 {
+        font-size: 40px;
+    }
+    .pagination .pg-num {
+        width: 30px;
+        height: 30px;
+    }
+    .pagination a.pg-num {
+        font-size: 12px;
     }
 }
