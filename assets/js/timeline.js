@@ -1,4 +1,4 @@
-$(document).ready(function() {
+function work_exp() {
     var elem = $('#timeline').children().first();
     var offset = $(elem).height() / 2;
     $(elem).css("margin-top", -offset);
@@ -16,4 +16,6 @@ $(document).ready(function() {
     $(badge).each(function() {
         $(this).css("margin-top", $(this).parent().height() / 2);
     });
-});
+}
+
+$(document).ready(work_exp);

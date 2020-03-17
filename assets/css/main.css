@@ -597,11 +597,6 @@ header {
     transition: unset;
 }
 
-.about-me-inner {
-    display: flex;
-    flex-direction: column;
-}
-
 .jumbo-text {
     display: flex;
     justify-content: center;

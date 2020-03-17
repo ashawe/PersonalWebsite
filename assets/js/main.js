@@ -11,6 +11,14 @@ function isScrolledIntoView(elem) {
 }
 
 var prevSelected = "lorem";
+$(document).ready(function() {
+
+    $('#other-cert').slideToggle('2000', 'swing');
+    $('#view-all-cert').click(function() {
+        $('#other-cert').slideToggle('2000', 'swing');
+    });
+
+});
 
 $(window).scroll(function() {
 

@@ -318,6 +318,11 @@ p.read>a {
     }
 }
 
+.subscribe-inner {
+    display: flex;
+    flex-direction: column;
+}
+
 .featured-resource h5 {
     max-width: 260px;
     margin-bottom: 20px;
@@ -336,11 +341,11 @@ p.read>a {
     text-decoration: underline;
 }
 
-#AboutMe {
+#Subscribe {
     margin: 100px 0 0 0;
 }
 
-#AboutMe .outer-wrapper {
+#Subscribe .outer-wrapper {
     max-width: 1320px;
     margin-left: auto;
     margin-right: auto;
@@ -348,7 +353,7 @@ p.read>a {
     border-radius: 8px;
 }
 
-.about-me-wrapper {
+.subscribe-wrapper {
     padding-top: 48px;
     padding-bottom: 48px;
     display: flex;
@@ -358,7 +363,7 @@ p.read>a {
     color: white;
 }
 
-.about-me-wrapper .about-me-inner {
+.subscribe-wrapper .subscribe-inner {
     -webkit-box-flex: 1;
     -ms-flex: 1 0 60%;
     flex: 1 0 60%;
@@ -368,7 +373,7 @@ p.read>a {
     padding: 20px 80px;
 }
 
-.about-me-wrapper .info {
+.subscribe-wrapper .info {
     display: flex;
     -webkit-box-flex: 1;
     -ms-flex: 1 0 40%;
@@ -395,13 +400,13 @@ p.read>a {
     object-position: center;
 }
 
-.about-me-wrapper .main-text {
+.subscribe-wrapper .main-text {
     margin-top: 0px !important;
     margin-bottom: 8px;
     color: white;
 }
 
-.about-me-wrapper .sub-text {
+.subscribe-wrapper .sub-text {
     margin-top: 8px !important;
     font-size: 1rem;
     color: #929292;
@@ -426,7 +431,7 @@ p.read>a {
     font-size: 1.5rem;
 }
 
-.about-me-wrapper .form {
+.subscribe-wrapper .form {
     position: relative;
     display: flex;
     margin-top: 0.5rem;
@@ -559,13 +564,13 @@ footer {
     .youtube-item:not(:last-child) {
         margin-bottom: 20px;
     }
-    #AboutMe .outer-wrapper {
+    #Subscribe .outer-wrapper {
         max-width: 97%;
     }
-    .about-me-wrapper .about-me-inner {
+    .subscribe-wrapper .subscribe-inner {
         padding: 10px 20px;
     }
-    .about-me-wrapper .form {
+    .subscribe-wrapper .form {
         max-width: 90%;
     }
     .subscribe-form-wrapper input {
@@ -574,7 +579,7 @@ footer {
     .subscribe-form-wrapper p {
         text-align: center;
     }
-    .about-me-wrapper .main-text {
+    .subscribe-wrapper .main-text {
         font-size: 38px;
     }
     .jumbo-text {
@@ -632,7 +637,7 @@ footer {
     .featured-resource h5 {
         font-size: 20px;
     }
-    .about-me-wrapper .info {
+    .subscribe-wrapper .info {
         padding-left: 0;
     }
     .subscribe-form-wrapper button {
@@ -699,7 +704,7 @@ footer {
     }
     .everything .youtube-video-wrap,
     .everything .blog-inner,
-    .everything .about-me-wrapper {
+    .everything .subscribe-wrapper {
         flex-direction: column;
     }
     .everything .blog-featured,
@@ -727,24 +732,24 @@ footer {
     .youtube-item .text {
         margin-left: 12px;
     }
-    .about-me-wrapper .main-text {
+    .subscribe-wrapper .main-text {
         font-size: 32px;
     }
     .subscribe-form-wrapper button {
         padding: 8px 12px;
         font-size: 14px;
     }
-    .everything .about-me-wrapper {
+    .everything .subscribe-wrapper {
         padding: 40px 0;
     }
     .subscribe-form-wrapper p {
         margin-top: 24px;
     }
-    .about-me-wrapper .about-me-inner {
+    .subscribe-wrapper .subscribe-inner {
         text-align: center;
         padding: 0 20px;
     }
-    #AboutMe .outer-wrapper {
+    #Subscribe .outer-wrapper {
         max-width: 100%;
         border-radius: 0;
     }
