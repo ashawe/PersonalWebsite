@@ -12,10 +12,18 @@ function isScrolledIntoView(elem) {
 
 var prevSelected = "lorem";
 $(document).ready(function() {
-
-    $('#other-cert').slideToggle('2000', 'swing');
+    var closed = true;
+    $('#other-cert').fadeToggle('5000', 'swing');
     $('#view-all-cert').click(function() {
-        $('#other-cert').slideToggle('2000', 'swing');
+        $('#other-cert').fadeToggle('5000', 'swing');
+        if (closed) {
+            $('#view-all-cert').html("View Less");
+            closed = false;
+        } else {
+            $('#view-all-cert').html("View All");
+            closed = true;
+        }
+
     });
 
 });
