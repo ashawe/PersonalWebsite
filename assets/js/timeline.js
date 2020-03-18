@@ -1,10 +1,25 @@
+function getAvgElementHeight() {
+    var height = 0;
+    var n = 0;
+    $('#timeline').children().each(function() {
+        height += $(this).height();
+        n++;
+    });
+    return height / n;
+}
+
+function getAdjustment() {
+    return $('.timeline-movement').css("margin-bottom").replace(/[^-\d\.]/g, '');
+}
+
 function work_exp() {
-    var elem = $('#timeline').children().first();
-    var offset = $(elem).height() / 2;
-    $(elem).css("margin-top", -offset);
-    $(elem).parent().css("margin-top", offset);
-    $('#timeline').height($('#timeline').height() - $(elem).height() - 16);
-    $('.work-exp.aside').css("margin-top", $(elem).height() / 2);
+    var firstElem = $('#timeline').children().first();
+    var firstElemHeight = $(firstElem).height();
+    var avgElementHeight = getAvgElementHeight();
+    $(firstElem).css("margin-top", -firstElemHeight / 2);
+    $(firstElem).parent().css("margin-top", firstElemHeight / 2);
+    $('#timeline').height($('#timeline').height() - avgElementHeight / 2 - getAdjustment());
+    $('.work-exp.aside').css("margin-top", avgElementHeight / 2);
 
     var year = $('.year .my_big_tag');
     var year_height = $(year).height();
@@ -16,6 +31,15 @@ function work_exp() {
     $(badge).each(function() {
         $(this).css("margin-top", $(this).parent().height() / 2);
     });
+}
+
+function getTimelineHeight(is_total) {
+    var height = 0;
+    $('.timeline-movement').each(function() {
+        if (!$(this).hasClass('hidden-work-exp') || is_total)
+            height += $(this).height();
+    });
+    return height - 16;
 }
 
 $(document).ready(work_exp);

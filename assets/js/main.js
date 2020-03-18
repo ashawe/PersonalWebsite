@@ -26,6 +26,22 @@ $(document).ready(function() {
 
     });
 
+    var closedWorkExp = true;
+    $('#timeline').height(getTimelineHeight(false) - getAvgElementHeight() / 2);
+    $('.hidden-work-exp').fadeToggle('5000', 'swing');
+    $('#view-all-work-exp').click(function() {
+        $('.hidden-work-exp').fadeToggle('5000', 'swing');
+        if (closedWorkExp) {
+            $('#view-all-work-exp').html("View Less");
+            $('#timeline').height(getTimelineHeight(true) - getAdjustment());
+            closedWorkExp = false;
+        } else {
+            $('#view-all-work-exp').html("View All");
+            closedWorkExp = true;
+            $('#timeline').height(getTimelineHeight(false) - getAvgElementHeight() / 2);
+        }
+    });
+
 });
 
 $(window).scroll(function() {

@@ -1,4 +1,4 @@
-*:not(#other-cert) {
+*:not(#other-cert):not(.hidden-work-exp) {
     transition: all 0.3s ease;
 }
 
