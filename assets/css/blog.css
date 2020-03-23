@@ -541,7 +541,8 @@ footer {
 }
 
 #blog_details .container-fluid{
-    width: 900px;
+    margin: auto;
+    max-width: 900px;
 }
 
 .blog-author {
@@ -729,6 +730,12 @@ footer {
     .jumbo-text {
         padding: 25px 0;
     }
+    #blog_details .container-fluid{
+        margin: 0 20px;
+    }
+    .blog-details-header h2{
+        font-size: 32px;
+    }
 }
 
 @media only screen and (max-device-width: 768px) {
@@ -845,5 +852,22 @@ footer {
     }
     .pagination a.pg-num {
         font-size: 12px;
+    }
+    .blog-details-header h2{
+        font-size: 24px;
+    }
+    .blog-author{
+        flex-direction: column;
+    }
+    .blog-author .img-wrap{
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .blog-author .text{
+        text-align: center;
+    }
+    .blog-author .text h3{
+        font-size: 24px;
+        margin-bottom: 10px;
     }
 }
