@@ -180,6 +180,7 @@ p>a:hover {
 }
 
 .new-blog-inner {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -219,6 +220,10 @@ p>a:hover {
     -o-object-position: center;
     object-position: center;
     font-family: 'object-fit: cover; object-position: center;';
+}
+
+.fun.new-blog-inner .img-wrap img{
+    height: 175px;
 }
 
 p.read>a {
@@ -618,6 +623,11 @@ footer {
 
 .blog-author .social-icons a:hover {
     color: #FD4664;
+}
+
+.w-50 {
+    flex: 0 0 50%;
+    max-width: 50%;
 }
 
 @media only screen and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {

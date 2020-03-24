@@ -602,6 +602,11 @@ header {
     justify-content: center;
     align-items: center;
     padding: 100px 0;
+    flex-direction: column;
+}
+
+.fun.jumbo-text{
+    padding: 20px 0 30px 0;
 }
 
 .new-blog-inner article a:hover,
