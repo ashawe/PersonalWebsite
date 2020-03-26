@@ -8,6 +8,12 @@ html {
     scroll-behavior: smooth;
 }
 
+hr {
+    margin: 20px auto;
+    max-width: 420px;
+    width: 100%;
+    border: 1px solid #FD4664;
+}
 
 /*16px*/
 

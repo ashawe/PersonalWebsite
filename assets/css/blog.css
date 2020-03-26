@@ -522,7 +522,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px 0 50px 0;
+    margin: 20px 0 20px 0;
 }
 
 .project-header-inner, .project-header-inner .blog-details-header {
@@ -566,6 +566,19 @@ footer {
 
 .blog-details-header p{
     margin: 0;
+}
+
+.blog-details-header .blog-description {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+    max-width: 960px;
+}
+
+.blog-article img {
+    width: 100%;
+    margin: 16px 0;
+    border-radius: 8px;
 }
 
 #blog_details .container-fluid{
