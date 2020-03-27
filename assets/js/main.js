@@ -12,6 +12,11 @@ function isScrolledIntoView(elem) {
 
 var prevSelected = "lorem";
 $(document).ready(function() {
+    $('#searchIcon').click(function(event){
+        $('.search-tray').slideToggle("fast","swing");
+        $('.search-input').focus();
+    });
+
     var closed = true;
     $('#other-cert').fadeToggle('5000', 'swing');
     $('#view-all-cert').click(function() {
@@ -53,11 +58,13 @@ $(window).scroll(function() {
     }
 
     if ($(window).scrollTop() >= 50) {
-        $(".header-nav").css("box-shadow", "0 0 8px rgba(0, 0, 0, 0.1)");
-        $(".header-nav").css("padding", "8px 32px");
+        $(".nav-inner").css("box-shadow", "0 0 8px rgba(0, 0, 0, 0.1)");
+        $(".nav-inner").css("padding", "8px 32px");
+        $(".search-input").css("margin", "8px auto");
     } else {
-        $(".header-nav").css("box-shadow", "none");
-        $(".header-nav").css("padding", "16px 32px");
+        $(".nav-inner").css("box-shadow", "none");
+        $(".nav-inner").css("padding", "16px 32px");
+        $(".search-input").css("margin", "16px auto");
     }
 
     $('section').each(function() {

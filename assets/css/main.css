@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400|Poppins:400');
+
+*:not(#other-cert):not(.hidden-work-exp):not(.search-tray) {
+    transition: all 0.3s ease;
+}
+
 .mt-16 {
     margin-top: 16px;
 }
@@ -59,6 +64,40 @@ h4 {
 
 h5 {
     font-size: 1.333em;
+}
+
+.search-tray{
+    display: none;
+    position: fixed;
+    justify-content: stretch;
+    z-index:6;
+    background-color: black;
+    width: 100%;
+}
+
+.search-tray.visible {
+    display: flex;
+}
+
+.search-tray .search-input {
+    width: 1200px;
+    margin: 16px auto;
+    border: none;
+    padding-left: 40px;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 0.135em;
+    background-color: black;
+}
+
+.search-input::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #c2c2c2;
+}
+
+.search-input::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #c2c2c2;
 }
 
 small,
@@ -161,7 +200,7 @@ nav ul {
     font-weight: bold;
 }
 
-nav {
+.nav-inner {
     display: flex;
     padding: 16px 32px;
     justify-content: space-between;
