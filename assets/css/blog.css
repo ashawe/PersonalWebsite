@@ -42,7 +42,7 @@ button a:hover {
 
 .img-wrap {
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .img-wrap img {
@@ -203,7 +203,7 @@ p>a:hover {
 }
 
 .new-blog-inner-item h4 {
-    margin: 0 0 20px 0;
+    margin: 0 0 5px 0;
 }
 
 .new-blog-inner .img-wrap img {
