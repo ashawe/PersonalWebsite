@@ -782,7 +782,11 @@ header {
         max-width: 90%;
     }
     /* certifications */
+    #other-cert{
+        width: 100%;
+    }
     .cert-inner-wrapper {
+        width: 100%;
         margin-bottom: 48px;
     }
     /* connect */
@@ -922,6 +926,9 @@ header {
     }
     .cert-outer-wrapper {
         justify-content: center;
+    }
+    #other-cert{
+        width: 90%;
     }
     .cert-inner-wrapper {
         margin-bottom: 40px;
@@ -1067,7 +1074,6 @@ header {
         padding: 0;
         max-width: 90%;
         align-self: center;
-        width: 100%;
     }
     .cert-outer-wrapper {
         padding: 0;
