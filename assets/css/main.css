@@ -1067,6 +1067,7 @@ header {
         padding: 0;
         max-width: 90%;
         align-self: center;
+        width: 100%;
     }
     .cert-outer-wrapper {
         padding: 0;
