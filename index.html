@@ -15,9 +15,11 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/blog.css">
     <link rel="stylesheet" href="assets/css/timeline.css">
+    <link rel="stylesheet" href="assets/css/dark.css">
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/timeline.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/dark.js"></script>
     <title>Harsh Saglani</title>
 </head>
 
@@ -28,7 +30,7 @@
         </div>
     </a>
     <nav class="header-nav">
-        <div class="nav-inner">
+        <div class="nav-inner" id="navbar" >
             <section class="nav-start">
                 <h4 class="nav-name main">Harsh Saglani</h4>
             </section>
@@ -40,7 +42,9 @@
             </ul>
             <section class="nav-aside">
                 <a id="searchIcon">🔍</a>
+            <span onclick="darkToggle()" >
                 <a href="#">🌙</a>
+            </span>
             </section>
         </div>
         <div class="search-tray">
