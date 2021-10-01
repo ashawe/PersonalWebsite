@@ -8,11 +8,13 @@
     <link rel="stylesheet" href="assets/css/fontawesome/css/solid.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/blog.css">
+    <link rel="stylesheet" href="assets/css/dark.css">
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/dark.js"></script>
     <title>My Story</title>
 </head>
-<body class="everything">
+<body class="everything" >
     <a id="go_up" href="#">
         <div class="up-arrow">
             <i class="fas fa-angle-up"></i>
@@ -28,7 +30,9 @@
             </ul>
             <section class="nav-aside">
                 <a id="searchIcon">🔍</a>
-                <a href="#">🌙</a>
+                <span onclick="darkToggle()" >
+                    <a href="#">🌙</a>
+                </span>
             </section>
         </div>
         <div class="search-tray">
