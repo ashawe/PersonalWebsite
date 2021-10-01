@@ -10,9 +10,11 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/blog.css">
     <link rel="stylesheet" href="assets/css/timeline.css">
+    <link rel="stylesheet" href="assets/css/dark.css">
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/timeline.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/dark.js"></script>
     <title>My Projects</title>
 </head>
 
@@ -30,7 +32,14 @@
             <ul class="nav-center">
                 <li><a href="index.html">Home</a></li>
                 <li><a class="active" href="#!">Projects</a></li>
-                <a id="searchIcon">🔍</a>
+                <li>
+                    <a id="searchIcon">🔍</a>
+                </li>
+                <li>
+                    <span onclick="darkToggle()" >
+                        <a href="#">🌙</a>
+                    </span>
+                </li>
             </ul>
             <section class="nav-aside">
                 <a target="_blank" href="https://github.com/ashawe"><button class="nav-subscribe">View on Github</button></a>
