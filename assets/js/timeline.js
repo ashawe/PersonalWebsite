@@ -39,7 +39,7 @@ function getTimelineHeight(is_total) {
         if (!$(this).hasClass('hidden-work-exp') || is_total)
             height += $(this).height();
     });
-    return height - 32;
+    return height - 68;
 }
 
 $(document).ready(work_exp);
