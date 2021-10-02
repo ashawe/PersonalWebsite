@@ -1,0 +1,14 @@
+.dark {
+  background: #18191a;
+  color: #eaedf0;
+}
+.nav-dark {
+  background: #242526;
+}
+.sec-dark {
+  color: #eaedf0 !important;
+}
+.fa-moon {
+  color: #f3c03e;
+  cursor: pointer;
+}

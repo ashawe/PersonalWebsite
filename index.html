@@ -15,9 +15,11 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/blog.css">
     <link rel="stylesheet" href="assets/css/timeline.css">
+    <link rel="stylesheet" href="assets/css/dark.css">
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/timeline.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/dark.js"></script>
     <title>Harsh Saglani</title>
 </head>
 
@@ -28,7 +30,7 @@
         </div>
     </a>
     <nav class="header-nav">
-        <div class="nav-inner">
+        <div class="nav-inner" id="navbar" >
             <section class="nav-start">
                 <h4 class="nav-name main">Harsh Saglani</h4>
             </section>
@@ -40,7 +42,10 @@
             </ul>
             <section class="nav-aside">
                 <a id="searchIcon">🔍</a>
-                <a href="#">🌙</a>
+            <span onclick="darkToggle()" >
+                <!-- <a href="#">🌙</a> -->
+                <i class="fas fa-moon" id="nav-icon" ></i>
+            </span>
             </section>
         </div>
         <div class="search-tray">
@@ -569,7 +574,7 @@
                         <h3>Living, Learning & Leveling up one day at a time</h3>
                     </div>
                     <div class="sub-section-header-title">
-                        <h5>Designed and build with <i class="fas blog-category pink fa-heart"></i> by Harsh Saglani</h>
+                        <h5>Designed and build with <i class="fas blog-category pink fa-heart"></i> by Harsh Saglani</h5>
                     </div>
                     <div class="github-stats">
                         <i class="fas fa-eye"></i>0
