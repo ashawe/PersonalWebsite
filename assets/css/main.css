@@ -583,6 +583,21 @@ img.project-img {
     font-weight: bold;
 }
 
+.cert-pub {
+    width: 100px;
+    background-color: #ffc837;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.cert-pub h4 {
+    margin: 0;
+    text-align: center;
+    align-self: center;
+}
+
 .connect-description {
     width: 100%;
     max-width: 50%;
