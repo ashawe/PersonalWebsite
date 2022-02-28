@@ -58,6 +58,10 @@ button a:hover {
     margin: 0 0 8px 0;
 }
 
+.blog-category.green {
+    color: #5abb1e;
+}
+
 .blog-category.blue {
     color: #0055fb;
 }
