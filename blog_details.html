@@ -9,9 +9,11 @@
     <link rel="stylesheet" href="assets/css/fontawesome/css/solid.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/blog.css">
+    <link rel="stylesheet" href="assets/css/dark.css">
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/main.js"></script>
-    <title>Everything</title>
+    <script src="assets/js/dark.js"></script>
+    <title>Harsh Saglani | Blog Title</title>
 </head>
 
 <body class="everything">
@@ -26,14 +28,17 @@
                 <h4 class="nav-name">Harsh Saglani</h4>
             </section>
             <ul class="nav-center">
-                <li><a href="everything.html">Everything</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a class="active">Blog</a></li>
-                <li><a href="blog.html">Projects</a></li>
-                <li><a href="blog.html">Youtube</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="talks.html">Talks & Publications</a></li>
                 <a id="searchIcon">🔍</a>
+                <span onclick="darkToggle()">
+                    <i class="fas fa-moon" id="nav-icon"></i>
+                </span>
             </ul>
             <section class="nav-aside">
-                <button class="nav-subscribe">Subscribe</button>
+                <!-- <button class="nav-subscribe">Subscribe</button> -->
             </section>
         </div>
         <div class="search-tray">
@@ -46,7 +51,9 @@
                 <div class="blog-details-header">
                     <p class="blog-category pink"><a class="blog-category pink" href="#">Some Category</a></p>
                     <h2>Lorem ipsum, dolor sit amet.</h2>
-                    <p class="blog-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit voluptatum consequatur veritatis, tenetur ullam nemo! Ducimus, natus nihil eaque voluptates esse voluptatem itaque!</p>
+                    <p class="blog-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit voluptatum
+                        consequatur veritatis, tenetur ullam nemo! Ducimus, natus nihil eaque voluptates esse voluptatem
+                        itaque!</p>
                     <p class="bold">John Donathan</p>
                     <p>Jan 15, 2020</p>
                 </div>
@@ -61,16 +68,30 @@
         <div class="container-fluid">
             <div class="blog-article">
                 <h3>This is this</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit voluptatum consequatur veritatis, tenetur ullam nemo! Ducimus, natus nihil eaque voluptates esse voluptatem itaque, consectetur delectus excepturi asperiores eius tempora expedita!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit voluptatum consequatur veritatis, tenetur ullam nemo! Ducimus, natus nihil eaque voluptates esse voluptatem itaque, consectetur delectus excepturi asperiores eius tempora expedita!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit voluptatum consequatur veritatis, tenetur ullam nemo! Ducimus, natus nihil eaque voluptates esse voluptatem itaque, consectetur delectus excepturi asperiores eius tempora expedita!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit voluptatum consequatur veritatis,
+                    tenetur ullam nemo! Ducimus, natus nihil eaque voluptates esse voluptatem itaque, consectetur
+                    delectus excepturi asperiores eius tempora expedita!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit voluptatum consequatur veritatis,
+                    tenetur ullam nemo! Ducimus, natus nihil eaque voluptates esse voluptatem itaque, consectetur
+                    delectus excepturi asperiores eius tempora expedita!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit voluptatum consequatur veritatis,
+                    tenetur ullam nemo! Ducimus, natus nihil eaque voluptates esse voluptatem itaque, consectetur
+                    delectus excepturi asperiores eius tempora expedita!</p>
                 <h3>That is that</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit voluptatum consequatur veritatis, tenetur ullam nemo! Ducimus, natus nihil eaque voluptates esse voluptatem itaque, consectetur delectus excepturi asperiores eius tempora expedita!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit voluptatum consequatur veritatis,
+                    tenetur ullam nemo! Ducimus, natus nihil eaque voluptates esse voluptatem itaque, consectetur
+                    delectus excepturi asperiores eius tempora expedita!</p>
                 <img src="assets/img/sample2.jpg">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit voluptatum consequatur veritatis, tenetur ullam nemo! Ducimus, natus nihil eaque voluptates esse voluptatem itaque, consectetur delectus excepturi asperiores eius tempora expedita!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit voluptatum consequatur veritatis, tenetur ullam nemo! Ducimus, natus nihil eaque voluptates esse voluptatem itaque, consectetur delectus excepturi asperiores eius tempora expedita!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit voluptatum consequatur veritatis,
+                    tenetur ullam nemo! Ducimus, natus nihil eaque voluptates esse voluptatem itaque, consectetur
+                    delectus excepturi asperiores eius tempora expedita!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit voluptatum consequatur veritatis,
+                    tenetur ullam nemo! Ducimus, natus nihil eaque voluptates esse voluptatem itaque, consectetur
+                    delectus excepturi asperiores eius tempora expedita!</p>
                 <img src="assets/img/sample2.jpg">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit voluptatum consequatur veritatis, tenetur ullam nemo! Ducimus, natus nihil eaque voluptates esse voluptatem itaque, consectetur delectus excepturi asperiores eius tempora expedita!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit voluptatum consequatur veritatis,
+                    tenetur ullam nemo! Ducimus, natus nihil eaque voluptates esse voluptatem itaque, consectetur
+                    delectus excepturi asperiores eius tempora expedita!</p>
             </div>
             <div class="blog-author">
                 <div class="img-wrap">
@@ -108,13 +129,16 @@
                             <div class="subscribe-form-wrapper">
                                 <form class="form" style="display: flex;">
                                     <div class="form-group">
-                                        <input id="Email" name="Email" placeholder="Enter your email" maxlength="255" type="email" class="mktoField mktoEmailField mktoHasWidth mktoRequired form-control">
+                                        <input id="Email" name="Email" placeholder="Enter your email" maxlength="255"
+                                            type="email"
+                                            class="mktoField mktoEmailField mktoHasWidth mktoRequired form-control">
                                     </div>
                                     <div class="subscribe-btn">
                                         <button type="submit">Subscribe</button>
                                     </div>
                                 </form>
-                                <p>&nbsp;&nbsp;<i class="fas fa-user"></i>&nbsp;&nbsp;125 people are reading this newsletter!</p>
+                                <p>&nbsp;&nbsp;<i class="fas fa-user"></i>&nbsp;&nbsp;125 people are reading this
+                                    newsletter!</p>
                             </div>
                         </div>
                     </div>
@@ -130,7 +154,8 @@
                         <h3>Living, Learning & Leveling up one day at a time</h3>
                     </div>
                     <div class="sub-section-header-title">
-                        <h5>Designed and build with <i class="fas blog-category pink fa-heart"></i> by Harsh Saglani</h5>
+                        <h5>Designed and build with <i class="fas blog-category pink fa-heart"></i> by Harsh Saglani
+                        </h5>
                     </div>
                     <div class="github-stats">
                         <i class="fas fa-eye"></i>24

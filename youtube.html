@@ -10,9 +10,11 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/blog.css">
     <link rel="stylesheet" href="assets/css/timeline.css">
+    <link rel="stylesheet" href="assets/css/dark.css">
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/timeline.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/dark.js"></script>
     <title>Harsh Saglani</title>
 </head>
 
@@ -28,11 +30,16 @@
                 <h4 class="nav-name">Harsh Saglani</h4>
             </section>
             <ul class="nav-center">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="talks.html">Talks & Publications</a></li>
                 <li><a href="everything.html">Everything</a></li>
-                <li><a class="active">Blog</a></li>
-                <li><a href="blog.html">Projects</a></li>
-                <li><a href="blog.html">Youtube</a></li>
+                <li><a class="active">Youtube</a></li>
                 <a id="searchIcon">🔍</a>
+                <span onclick="darkToggle()">
+                    <i class="fas fa-moon" id="nav-icon"></i>
+                </span>
             </ul>
             <section class="nav-aside">
                 <button class="nav-subscribe">Subscribe</button>

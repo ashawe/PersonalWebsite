@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="assets/css/fontawesome/css/solid.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/blog.css">
+    <link rel="stylesheet" href="assets/css/dark.css">
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/dark.js"></script>
     <title>Everything</title>
 </head>
 
@@ -26,14 +28,17 @@
                 <h4 class="nav-name">Harsh Saglani</h4>
             </section>
             <ul class="nav-center">
-                <li><a href="everything.html">Everything</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="blog.html">Blog</a></li>
                 <li><a class="active">Projects</a></li>
-                <li><a href="blog.html">Youtube</a></li>
+                <li><a href="talks.html">Talks & Publications</a></li>
                 <a id="searchIcon">🔍</a>
+                <span onclick="darkToggle()">
+                    <i class="fas fa-moon" id="nav-icon"></i>
+                </span>
             </ul>
             <section class="nav-aside">
-                <button class="nav-subscribe">Subscribe</button>
+                <!-- <button class="nav-subscribe">Subscribe</button> -->
             </section>
         </div>
         <div class="search-tray">
