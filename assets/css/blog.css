@@ -222,6 +222,11 @@ p>a:hover {
     font-family: 'object-fit: cover; object-position: center;';
 }
 
+.cert-pub.talk {
+    height: 275px;
+    width: auto;
+}
+
 .fun.new-blog-inner .img-wrap img{
     height: 175px;
 }
@@ -650,6 +655,9 @@ footer {
     .new-blog-inner .img-wrap img {
         height: 200px;
     }
+    .cert-pub.talk {
+        height: 200px;
+    }
     .new-blog-inner-item h4 {
         font-size: 24px;
     }
@@ -726,6 +734,9 @@ footer {
         font-size: 32px;
     }
     .new-blog-inner .img-wrap img {
+        height: 150px;
+    }
+    .cert-pub.talk{
         height: 150px;
     }
     .new-blog-inner {
