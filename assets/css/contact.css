@@ -13,7 +13,7 @@ body {
     background: linear-gradient(135deg, #0f172a, #1e293b);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
-    padding: 1.5rem;
+    padding: 1rem;
 }
 
 .container {
@@ -61,7 +61,7 @@ body {
     position: absolute;
     inset: 0;
     /* background: linear-gradient(45deg, #60a5fa, #a78bfa); */
-    background-image: url('../assets/img/harsh.jpg');
+    background-image: url('../img/harsh.jpg');
     background-position: center;
     background-size: cover;
     opacity: 0.8;
