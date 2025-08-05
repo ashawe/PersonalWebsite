@@ -44,8 +44,8 @@ body {
 /* Avatar Styles */
 .avatar-wrapper {
     position: relative;
-    width: 120px;
-    height: 120px;
+    width: 160px;
+    height: 160px;
     margin: 0 auto 2rem;
 }
 
@@ -110,7 +110,7 @@ body {
 .title {
     color: #94a3b8;
     font-size: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 /* Stats Section */
@@ -289,6 +289,14 @@ body {
     opacity: 0.05;
 }
 
+.small-line {
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: linear-gradient(to right, #60a5fa, #a78bfa);
+    margin: 0.5rem auto;
+}
+
 /* Responsive Design */
 @media (max-width: 480px) {
     .container {
@@ -300,8 +308,8 @@ body {
     }
 
     .avatar-wrapper {
-        width: 100px;
-        height: 100px;
+        width: 140px;
+        height: 140px;
     }
 
     .name {
